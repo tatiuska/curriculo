@@ -1,0 +1,22 @@
+/* Estilos Gerais */
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+/* Header e Navbar */
+header {
+    background-color: #4B5F9B;
+    width: auto;
+    height: 120px;
+    margin-top: 0;
+}
