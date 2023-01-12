@@ -8,20 +8,72 @@ html {
 }
 
 h1 {
-    font-size: 36px;
-    color: #FFFFFF;
+    font-size: 24px;
+    color: #DDA755;
+    margin-left: 20px;
+    margin-bottom: 0;
 }
 
 h2 {
     font-size: 28px;
-    color: #FFFFFF;
+    color: #3E5FC1;
     padding: 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #3C3C3C;
 }
 
 /* Header e Navbar */
 header {
     background-color: #4B5F9B;
     width: auto;
-    height: 120px;
+    height: 60px;
     margin-top: 0;
 }
+
+#nav-container a {
+    color: #FFFFFF;
+}
+
+#nav-container a:hover {
+    font-weight: bold;
+    color: #DDA755;
+}
+
+.navbar-nav {
+    margin-right: 20px;
+}
+
+/* Banner */
+#home-banner {
+    height: 400px;
+}
+
+#nome-cargo {
+
+}
+
+#foto img {
+    border-radius: 200px;
+    margin-left: 900px;
+}
+
+/* Slider */
+#slider {
+
+}
+
+/* Formação Acadêmica */
+#formacao {
+
+}
+
+/* Cursos Realizados */
+
+
+/* Experiência Profissional */
+
+
+/* Contato */
