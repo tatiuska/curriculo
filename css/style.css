@@ -86,12 +86,12 @@ header {
     .container-flex {
         flex-direction: column;
     }
-    
+
     #home-banner {
         flex-direction: column-reverse;
     }
 
     #home-banner img {
-
+        max-width: 150px;
     }
 }
