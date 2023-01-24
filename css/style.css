@@ -60,9 +60,10 @@ header {
     margin-left: 900px;
 }
 
-/* Slider */
-#slider {
-
+/* Mini-Banners */
+#mini-banners {
+    background-color: #4B5F9B;
+    color: #FFFFFF;
 }
 
 /* Formação Acadêmica */
@@ -77,3 +78,20 @@ header {
 
 
 /* Contato */
+
+
+/* Mobile */
+@media(max-width: 720px) {
+
+    .container-flex {
+        flex-direction: column;
+    }
+    
+    #home-banner {
+        flex-direction: column-reverse;
+    }
+
+    #home-banner img {
+
+    }
+}
