@@ -1,5 +1,8 @@
 /* Estilos Gerais */
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -31,6 +34,13 @@ header {
     width: auto;
     height: 60px;
     margin-top: 0;
+    border: 2px solid #E06B17;
+}
+
+#nav-container {
+    display: flex;
+    border: 2px solid #4F8785;
+    height: auto;
 }
 
 #nav-container a {
@@ -42,6 +52,14 @@ header {
     color: #DDA755;
 }
 
+.navbar {
+    border: 2px solid #FF0000;
+    posiiton: fixed;
+    top: 0;
+}
+#navbar-links {
+    border: 2px solid #BE229C;
+}
 .navbar-nav {
     margin-right: 20px;
 }
