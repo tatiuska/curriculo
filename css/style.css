@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 42px;
     color: #3E5FC1;
     padding: 0;
 }
@@ -61,16 +61,29 @@ header {
 
 /* Banner */
 #home-banner {
-    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+#banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #nome-cargo {
+    width: 50%;
+}
 
+#foto {
+    margin-right: 10px;
 }
 
 #foto img {
-    border-radius: 200px;
-    margin-left: 900px;
+    border-radius: 400px;
+    position: relative;
 }
 
 /* Mini-Banners */
@@ -94,6 +107,7 @@ header {
 
 
 /* Mobile */
+/*
 @media(max-width: 720px) {
 
     .container-flex {
@@ -107,4 +121,4 @@ header {
     #home-banner img {
         max-width: 150px;
     }
-}
+}*/
