@@ -37,13 +37,14 @@ header {
 }
 
 .navbar {
-    posiiton: fixed;
+    position: relative;
     top: 0;
 }
 
 #navbar-links {
     display: flex;
     height: auto;
+    background-color: #4B5F9B;
 }
 
 #navbar-links a {
@@ -82,8 +83,10 @@ header {
 }
 
 #foto img {
-    border-radius: 400px;
+    border-radius: 200px;
     position: relative;
+    width: 100%;
+    height: auto;
 }
 
 /* Mini-Banners */
@@ -107,18 +110,51 @@ header {
 
 
 /* Mobile */
-/*
-@media(max-width: 720px) {
+@media(max-width: 620px) {
 
-    .container-flex {
-        flex-direction: column;
+    h2 {
+        font-size: auto;
     }
+
+    h3 {
+        font-size: auto;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .navbar {
+        text-align: end;
+    }
+
+    #banner-content {
+        width: auto;
+    }
+
+    #foto img {
+        width: auto;
+    }
+
+    #nome-cargo {
+        width: auto;
+        text-align: center;
+    }
+
+@media(max-width: 425px) {
 
     #home-banner {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        margin-top: auto;
+        padding-top: auto;
     }
+    
+    #banner-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
 
-    #home-banner img {
-        max-width: 150px;
-    }
-}*/
+
+}
