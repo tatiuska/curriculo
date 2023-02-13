@@ -36,6 +36,10 @@ header {
     margin-top: 0;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 .navbar {
     position: relative;
     top: 0;
@@ -142,6 +146,20 @@ header {
     align-self: auto;
 }
 
+.table-bordered {
+    border-color: #4B5F9B;
+}
+
+#table-head {
+    background-color: #3E5FC1;
+    color: #FFFFFF;
+}
+
+#table-body {
+    background-color: #FFFFFF;
+    color: #3C3C3C;
+}
+
 
 
 
@@ -160,7 +178,15 @@ header {
 
 
 /* Mobile */
-@media(max-width: 620px) {
+@media(max-width: 960px) {
+
+    #cards {
+        height: auto;
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 680px) {
 
     h2 {
         font-size: auto;
@@ -170,10 +196,12 @@ header {
         font-size: auto;
     }
 
-    header {
+    #home-banner {
+        display: flex;
         height: auto;
+        margin-top: auto;
+        padding-top: auto;
     }
-
     .navbar {
         text-align: end;
     }
@@ -187,9 +215,12 @@ header {
     }
 
     #nome-cargo {
-        width: auto;
+        width: 70%;;
         text-align: center;
     }
+
+
+
 
 @media(max-width: 425px) {
 

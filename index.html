@@ -20,29 +20,31 @@
 </head>
 <body>
 <!-- Header e Navbar -->
-    <header>
-        <nav class="navbar navbar-expand-sm d-flex">
-            <a href="#" class="navbar-brand">
-                <h1>Curriculum Vitae</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#" id="home-menu">Início</a>
-                    <a class="nav-item nav-link" href="#" id="formacao-menu">Formação</a>
-                    <a class="nav-item nav-link" href="#" id="cursos-menu">Cursos</a>
-                    <a class="nav-item nav-link" href="#" id="experiencia-menu">Experiência</a>
-                    <a class="nav-item nav-link" href="#" id="contato-menu">Contato</a>
+    <div class="container-fluid" id="header-navbar">
+        <header>
+            <nav class="navbar navbar-expand-sm d-flex">
+                <a href="#" class="navbar-brand">
+                    <h1>Curriculum Vitae</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#" id="home-menu">Início</a>
+                        <a class="nav-item nav-link" href="#" id="formacao-menu">Formação</a>
+                        <a class="nav-item nav-link" href="#" id="cursos-menu">Cursos</a>
+                        <a class="nav-item nav-link" href="#" id="experiencia-menu">Experiência</a>
+                        <a class="nav-item nav-link" href="#" id="contato-menu">Contato</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
+    </div>
 
     <main>
     <!-- Home Banner -->
-        <div class="container" id="home-banner">
+        <div class="container-fluid" id="home-banner">
             <div class="row" id="banner-content">
                 <div class="col-6 col-sm-4" id="foto">
                     <img class="img-fluid" src="./img/foto-cv.jpg" alt="Tatiana Weska"/>
@@ -85,11 +87,30 @@
                         <span class="d-inline-block float-start"><i class="bi bi-globe2"></i></span>
                         <span class="d-inline-block"><h3>Idiomas</h3></span>
                     </div>
-                    <p>
-                        Português: Nativo<br>
-                        Inglês: Fala, Lê e Escreve<br>
-                        Espanhol: Escreve e Lê.<br>
-                    </p>
+                    <div class="container">
+                        <table class="table table-bordered table-sm">
+                            <thead id="table-head">
+                                <tr>
+                                    <th>Idioma</th>
+                                    <th>Nível</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-group-divider" id="table-body">
+                                <tr>
+                                    <td>Espanhol</td>
+                                    <td>Básico</td>
+                                </tr>
+                                <tr>
+                                    <td>Inglês</td>
+                                    <td>Avançado</td>
+                                </tr>
+                                <tr>
+                                    <td>Português</td>
+                                    <td>Nativo</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
