@@ -151,12 +151,12 @@ header {
 }
 
 #table-head {
-    background-color: #3E5FC1;
-    color: #FFFFFF;
+    background-color: #f2c581;
+    color: #3C3C3C;
 }
 
 #table-body {
-    background-color: #FFFFFF;
+    background-color: #DDA755;
     color: #3C3C3C;
 }
 
