@@ -221,6 +221,32 @@ h2.titulo-secao-end {
     padding-left: 50px;
 }
 
+/* Portfolio */
+#slider-container {
+    padding-top: 30px;
+}
+
+#portfolio h2 {
+    color: #DDA755;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    color: #4B5F9B;
+}
+
+#slider .carousel-caption h5 {
+    font-size: 24px;
+    color: #3E5FC1;
+    background-color: rgba(221,167,85,0.5);
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+    font-size: 42px;
+    color: #3E5FC1;
+}
+
 /* Experiência Profissional */
 
 
