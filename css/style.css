@@ -239,7 +239,26 @@ h2.titulo-secao-end {
 }
 
 /* Experiência Profissional */
+#experiencia {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: #4B5F9B;
+    color: #FFFFFF;
+}
 
+#experiencia-start {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+#experiencia-end {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+#experiencia-start p, #experiencia-end p {
+    margin-bottom: 50px;
+}
 
 /* Contato */
 
