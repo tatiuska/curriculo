@@ -43,10 +43,6 @@ a:hover {
     font-weight: bold;
 }
 
-hr {
-    border: 2px solid #3C3C3C;
-}
-
 /* Header e Navbar */
 header {
     background-color: #4B5F9B;
@@ -88,17 +84,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 300px;
+    height: 350px;
 }
 
 #banner-content {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 900px;
 }
 
 #nome-cargo {
-    width: 50%;
+    width:65%;
 }
 
 #foto {
@@ -108,7 +105,7 @@ header {
 #foto img {
     border-radius: 200px;
     position: relative;
-    width: 90%;
+    width: 80%;
     height: auto;
 }
 
@@ -183,6 +180,7 @@ header {
 /* Formação Acadêmica */
 #formacao {
     padding-top: 30px;
+    height: 500px;
 }
 
 h2.titulo-secao-start {
@@ -192,7 +190,7 @@ h2.titulo-secao-start {
 }
 
 #formacao-start, #formacao-end {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-left: 50px;
     padding-bottom: 50px;
 }
@@ -208,18 +206,19 @@ h2.titulo-secao-start {
 
 h2.titulo-secao-end {
     text-align: end;
-    color: #DDA755;
+    color: #FFFFFF;
     font-size: 36px;
-    margin-bottom: 40px;
-    padding-right: 120px;
+    margin-bottom: 20px;
 }
 
 #cursos-start {
-    padding-left: 120px;
+    padding-top: 30px;
+    padding-left: 50px;
 }
 
 #cursos-middle, #cursos-end {
-    padding-left: 100px;
+    padding-top: 30px;
+    padding-left: 50px;
 }
 
 /* Experiência Profissional */

@@ -1,16 +1,13 @@
 var grayscale = false;          //variável global e função para mudar a foto do CV para versão em escala de cinza quando passar com o mouse por cima e ao clicar.
 function mudaFoto(tipo) {
     if (tipo == 1) {
-        arquivo = "./img/foto_cv_gs.jpg";
+        arquivo = "./img/foto-cv-gs.jpg";
     }
     if (tipo == 2) {
-        arquivo = "./img/foto_cv.jpg";
+        arquivo = "./img/foto-cv.jpg";
     }
     if (tipo == 3) {
-        arquivo = "./img/foto_cv_gs.jpg";
-    }
-    if (tipo == 4) {
-        arquivo = "./img/diploma.png";
+        arquivo = "./img/foto-cv-gs.jpg";
     }
     if (!grayscale) {
         document.getElementById("img-cv").src = arquivo;

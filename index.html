@@ -17,9 +17,11 @@
         <link rel="stylesheet" href="./css/style.css"/>
         <!-- Script Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</head>
+        <!-- JS -->
+        <script src="./js/script.js" defer></script>
+    </head>
 <body>
-<!-- Header e Navbar -->
+    <!-- Header e Navbar -->
     <div class="container-fluid" id="header-navbar">
         <header>
             <nav class="navbar navbar-expand-sm d-flex">
@@ -43,11 +45,11 @@
     </div>
 
     <main>
-<!-- Home Banner -->
+        <!-- Home Banner -->
         <div class="container-fluid" id="home-banner">
             <div class="row" id="banner-content">
                 <div class="col-6 col-sm-4" id="foto">
-                    <img class="img-fluid" src="./img/foto-cv.jpg" alt="Tatiana Weska"/>
+                    <img class="img-fluid" src="./img/foto-cv.jpg" id="img-cv" alt="Tatiana Weska" onmousemove="mudaFoto(1)" onmouseout="mudaFoto(2)" onclick="mudaFoto(3)"/>
                 </div>
                 <div class="col-6 col-sm-4" id="nome-cargo">
                     <h2>Tatiana Weska</h2>
@@ -55,7 +57,7 @@
                 </div>
             </div>
         </div>
-<!-- Cards -->
+        <!-- Cards -->
         <div class="container-fluid" id="cards">
             <div class="row" id="cards-row">
                 <div class="col-4" id="dados-pessoais">
@@ -114,7 +116,7 @@
                 </div>
             </div>
         </div>
-<!-- Formação Acadêmica -->
+        <!-- Formação Acadêmica -->
         <div class="container" id="formacao">
             <div class="row" id="formacao-dados">
                 <h2 class="titulo-secao-start">Formação Acadêmica</h2>
@@ -147,76 +149,80 @@
                 </div>
             </div>
         </div>
+        <!-- Cursos Realizados -->
         <div class="container-fluid" id="cursos">
-            <div class="row">
-                <h2 class="titulo-secao-end">Cursos Realizados</h2>
-                <div class="col-4" id="cursos-start">
-                    <p>
-                        <h4>Desmistificando a Escrita Técnico-científica em LaTeX usando a Plataforma Overleaf</h4>
-                        Escola: UCPel</br>
-                        Carga horária: 4h</br>
-                        Concluído em: Outubro/2022</br>
-                    </p>
-                    <p>
-                        <h4>Semana Spring React</h4>
-                        Escola: DevSuperior</br>
-                        Carga horária: 16h</br>
-                        Concluído em: Maio/2022</br>
-                    </p>
-                    <p>
-                        <h4>Jornada Dev</h4>
-                        Escola: E.B.A.C.</br>
-                        Carga horária: 6h</br>
-                        Concluído em: Maio/2022</br>
-                    </p>
-                    <p>
-                        <h4>Capacita MDT - Expert</h4>
-                        Escola: Let's Bot</br>
-                        Carga horária: 40h</br>
-                        Concluído em: Março/2021</br>
-                    </p>
+            <div class="container">
+                <div class="row">
+                    <h2 class="titulo-secao-end">Cursos Realizados</h2>
+                    <hr>
+                    <div class="col-4" id="cursos-start">
+                        <p>
+                            <h4>Desmistificando a Escrita Técnico-científica em LaTeX usando a Plataforma Overleaf</h4>
+                            Escola: UCPel</br>
+                            Carga horária: 4h</br>
+                            Concluído em: Outubro/2022</br>
+                        </p>
+                        <p>
+                            <h4>Semana Spring React</h4>
+                            Escola: DevSuperior</br>
+                            Carga horária: 16h</br>
+                            Concluído em: Maio/2022</br>
+                        </p>
+                        <p>
+                            <h4>Jornada Dev</h4>
+                            Escola: E.B.A.C.</br>
+                            Carga horária: 6h</br>
+                            Concluído em: Maio/2022</br>
+                        </p>
+                        <p>
+                            <h4>Capacita MDT - Expert</h4>
+                            Escola: Let's Bot</br>
+                            Carga horária: 40h</br>
+                            Concluído em: Março/2021</br>
+                        </p>
+                    </div>
+                    <div class="col-4" id="cursos-middle">
+                        <p>
+                            <h4>Capacita MDT - Starter</h4>
+                            Escola: Let's Bot</br>
+                            Carga horária: 10h</br>
+                            Concluído em: Janeiro/2021</br>
+                        </p>
+                        <p>
+                            <h4>UX Research</h4>
+                            Escola: HOW Bootcamps</br>
+                            Carga horária: 8h</br>
+                            Concluído em: Dezembro/2020</br>
+                        </p>
+                        <p>
+                            <h4>Product Design</h4>
+                            Escola: HOW Bootcamps</br>
+                            Carga horária: 8h</br>
+                            Concluído em: Outubro/2020</br>
+                        </p>
+                        <p>
+                            <h4>UX Writing</h4>
+                            Escola: HOW Bootcamps</br>
+                            Carga horária: 8h</br>
+                            Concluído em: Setembro/2020</br>
+                        </p>
+                    </div>
+                    <div class="col-4" id="cursos-end">
+                        <p>
+                            <h4>UX Design</h4>
+                            Escola: HOW Bootcamps</br>
+                            Carga horária: 40h</br>
+                            Concluído em: Julho/2020</br>
+                        </p>
+                        <p>
+                            <h4>User Experience</h4>
+                            Escola: Instituto Europeo di Design (IED)</br>
+                            Carga horária: 8h</br>
+                            Concluído em: Janeiro/2016</br>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-4" id="cursos-middle">
-                    <p>
-                        <h4>Capacita MDT - Starter</h4>
-                        Escola: Let's Bot</br>
-                        Carga horária: 10h</br>
-                        Concluído em: Janeiro/2021</br>
-                    </p>
-                    <p>
-                        <h4>UX Research</h4>
-                        Escola: HOW Bootcamps</br>
-                        Carga horária: 8h</br>
-                        Concluído em: Dezembro/2020</br>
-                    </p>
-                    <p>
-                        <h4>Product Design</h4>
-                        Escola: HOW Bootcamps</br>
-                        Carga horária: 8h</br>
-                        Concluído em: Outubro/2020</br>
-                    </p>
-                    <p>
-                        <h4>UX Writing</h4>
-                        Escola: HOW Bootcamps</br>
-                        Carga horária: 8h</br>
-                        Concluído em: Setembro/2020</br>
-                    </p>
-                </div>
-                <div class="col-4" id="cursos-end">
-                    <p>
-                        <h4>UX Design</h4>
-                        Escola: HOW Bootcamps</br>
-                        Carga horária: 40h</br>
-                        Concluído em: Julho/2020</br>
-                    </p>
-                    <p>
-                        <h4>User Experience</h4>
-                        Escola: Instituto Europeo di Design (IED)</br>
-                        Carga horária: 8h</br>
-                        Concluído em: Janeiro/2016</br>
-                    </p>
-                </div>
-            </div>
+            </div>   
         </div>
     </main>
     
