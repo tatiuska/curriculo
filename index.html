@@ -229,7 +229,7 @@
         <div class="container" id="slider-container">
             <div class="container" id="portfolio">
                 <div class="row">
-                    <h2>Portfolio</h2>
+                    <h2 class="titulo-secao-start">Portfolio</h2>
                     <hr>
                 </div>
             </div>
@@ -302,6 +302,31 @@
                             Período: 02/2012 - 06/2012</br>
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contato -->
+        <div class="container" id="contato">
+            <div class="row">
+                <h2 class="titulo-secao-start">Contato</h2>
+                <hr>
+                <div class="col-6" id="formulario">
+                    <form action="mailto:tfweska@gmail.com" method="post" id="fContato">
+                        <fieldset id="mensagem">
+                            <p>
+                                <label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo">
+                            </p>
+                            <p>
+                                <label for="cMail">E-mail:</label> <input type="email" name="tMail" id="cMail" size="20" maxlength="40">
+                            </p>
+                            <p>
+                                <label for="cMsg">Mensagem:</label> 
+                                <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe sua mensagem"></textarea>
+                            </p>
+                            <p></p>
+                        </fieldset>
+                        <input type="button" name="tEnviar" id="cEnviar" value="Enviar" placeholder="Enviar" onclick="send()"/>
+                    </form>
                 </div>
             </div>
         </div>

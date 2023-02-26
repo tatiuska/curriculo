@@ -261,7 +261,37 @@ h2.titulo-secao-end {
 }
 
 /* Contato */
+#contato {
+    height: 500px;
+    padding-top: 30px;
+}
 
+form {
+    width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    font-weight: normal;
+    font-size: 13px;
+    background-color: rgba(255,255,255,.8);
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+fieldset {
+    border-color:  #DDA755;
+    margin: 20px;
+}
+
+input#cEnviar {
+    background-color:  #4B5F9B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
 
 /* Mobile */
 @media(max-width: 960px) {
