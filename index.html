@@ -310,29 +310,28 @@
             <div class="row">
                 <h2 class="titulo-secao-start">Contato</h2>
                 <hr>
-                <div class="col-6" id="formulario">
+                <div class="row mb-3 g-2" id="formulario">
                     <form action="mailto:email[at]email.com" method="post" id="fContato">
-                        <fieldset id="mensagem">
-                            <p>
-                                <label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo">
-                            </p>
-                            <p>
-                                <label for="cMail">E-mail:</label> <input type="email" name="tMail" id="cMail" size="20" maxlength="40">
-                            </p>
-                            <p>
-                                <label for="cMsg">Mensagem:</label> 
+                        <div class="col-12">
+                            <div class="col-4 col-sm-3" id="fNome">
+                                <label for="iNome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="iNome" name="" placeholder="Nome completo">
+                            </div>
+                            <div class="col-4 col-sm-3" id="fMail">
+                                <label for="iEmail" class="form-label">E-mail</label>
+                                <input type="text" class="form-control" id="iEmail" placeholder="nome@email.com">
+                            </div>
+                            <div class="col-4 col-sm-3" id="fMsg">
+                                <label for="iMensagem" class="form-label">Mensagem</label>
                                 <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe sua mensagem"></textarea>
-                            </p>
-                            <p></p>
-                        </fieldset>
-                        <input type="button" name="tEnviar" id="cEnviar" value="Enviar" placeholder="Enviar" onclick="send()"/>
+                            </div>
+                            <input class="btn btn-warning" type="button" name="tEnviar" id="cEnviar" value="Enviar" placeholder="Enviar" onclick="send()"/>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
-
     </main>
-    
     <footer>
 
     </footer>

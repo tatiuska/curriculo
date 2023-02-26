@@ -262,10 +262,32 @@ h2.titulo-secao-end {
 
 /* Contato */
 #contato {
-    height: 500px;
+    height: auto;
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
+#formulario {
+    height: auto;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+#fNome, #fMail, #fMsg {
+    padding: 10px;
+}
+
+input #iMensagem {
+    height: 50px;
+}
+
+input #cEnviar {
+    padding: 5px;
+    align-self: flex-end;
+}
+
+/*
 form {
     width: 500px;
     margin: auto;
@@ -282,16 +304,20 @@ input:hover, textarea:hover {
 }
 
 fieldset {
-    border-color:  #DDA755;
     margin: 20px;
+}
+
+label {
+    text-align: center;
 }
 
 input#cEnviar {
     background-color:  #4B5F9B;
     color: #FFFFFF;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
+*/
 
 /* Mobile */
 @media(max-width: 960px) {
