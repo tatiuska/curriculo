@@ -280,6 +280,24 @@ button #cEnviar {
     padding: 5px;
 }
 
+/* Footer */
+#footer {
+    background-color: #DDA755;
+    color: #3C3C3C;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+#social-media i {
+    font-size: 20px;
+}
+
+#scipt-acesso {
+    justify-items: center;
+}
+
 /* Mobile */
 @media(max-width: 960px) {
 
