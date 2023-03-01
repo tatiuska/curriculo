@@ -44,6 +44,10 @@ a:hover {
 }
 
 /* Header e Navbar */
+div.container-fluid {
+    padding: 0;
+}
+
 header {
     background-color: #4B5F9B;
     width: auto;
@@ -51,58 +55,54 @@ header {
     margin-top: 0;
 }
 
-.container-fluid {
-    padding: 0;
-}
-
-.navbar {
+nav.navbar {
     position: relative;
     top: 0;
 }
 
-#navbar-links {
+div#navbar-links {
     display: flex;
     height: auto;
     background-color: #4B5F9B;
 }
 
-#navbar-links a {
+div#navbar-links a {
     color: #FFFFFF
 }
 
-#navbar-links a:hover {
+div#navbar-links a:hover {
     font-weight: bold;
     color: #DDA755;
 }
 
-.navbar-nav {
+div.navbar-nav {
     margin-right: 20px;
 }
 
 /* Banner */
-#home-banner {
+div#home-banner {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 350px;
 }
 
-#banner-content {
+div#banner-content {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 900px;
 }
 
-#nome-cargo {
+div #nome-cargo {
     width:65%;
 }
 
-#foto {
+div#foto {
     margin-right: 10px;
 }
 
-#foto img {
+div#foto img {
     border-radius: 200px;
     position: relative;
     width: 80%;
@@ -110,20 +110,20 @@ header {
 }
 
 /* Cards */
-#cards {
+div#cards {
     background-color: #DDA755;
     color: #3C3C3C;
     height: 400px;
     padding-top: 30px;
 }
 
-#cards-row {
+div#cards-row {
     align-items: center;
     justify-content: space-evenly;
 
 }
 
-.card-header {
+div.card-header {
     margin-top: 20px;
     margin-bottom: 10px;
     vertical-align: middle;
@@ -132,7 +132,7 @@ header {
     
 }
 
-#dados-pessoais, #endereco, #idiomas {
+div#dados-pessoais, div#endereco, div#idiomas {
     height: 250px;
     width: 300px;
     border: solid 2px #3E5FC1;
@@ -140,14 +140,14 @@ header {
     margin-right: 20px;
 }
 
-#dados-pessoais i, #endereco i, #idiomas i {
+div#dados-pessoais i, div#endereco i, div#idiomas i {
     font-size: 32px;
     color:#4B5F9B;
     padding-top: 20px;
     padding-left: 10px;
 }
 
-#dados-pessoais h3, #endereco h3, #idiomas h3 {
+div#dados-pessoais h3, div#endereco h3, div#idiomas h3 {
     font-size: 24px;
     font-weight: 900;
     color: #4B5F9B;
@@ -156,29 +156,29 @@ header {
     vertical-align: middle;
 }
 
-#dados-pessoais p, #endereco p, #idiomas p {
+div#dados-pessoais p, div#endereco p, div#idiomas p {
     margin-top: 10px;
     padding-left: 10px;
     justify-content: center;
     align-self: auto;
 }
 
-.table-bordered {
+table.table-bordered {
     border-color: #4B5F9B;
 }
 
-#table-head {
+thead#table-head {
     background-color: #f2c581;
     color: #3C3C3C;
 }
 
-#table-body {
+tbody#table-body {
     background-color: #DDA755;
     color: #3C3C3C;
 }
 
 /* Formação Acadêmica */
-#formacao {
+div#formacao {
     padding-top: 30px;
     height: 500px;
 }
@@ -189,14 +189,14 @@ h2.titulo-secao-start {
     margin-bottom: 20px;
 }
 
-#formacao-start, #formacao-end {
+div#formacao-start, div#formacao-end {
     padding-top: 30px;
     padding-left: 50px;
     padding-bottom: 50px;
 }
 
 /* Cursos Realizados */
-#cursos {
+div#cursos {
     padding-top: 30px;
     padding-bottom: 50px;
     background-color: #4B5F9B;
@@ -210,78 +210,73 @@ h2.titulo-secao-end {
     margin-bottom: 20px;
 }
 
-#cursos-start {
-    padding-top: 30px;
-    padding-left: 50px;
-}
-
-#cursos-middle, #cursos-end {
+div#cursos-start div#cursos-middle div#cursos-end {
     padding-top: 30px;
     padding-left: 50px;
 }
 
 /* Portfolio */
-#slider-container {
+div#slider-container {
     padding-top: 30px;
     padding-bottom: 50px;
 }
 
-#portfolio h2 {
+div#portfolio h2 {
     color: #DDA755;
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.carousel-control-prev i, .carousel-control-next i {
+button.carousel-control-prev i, button.carousel-control-next i {
     font-size: 42px;
     color: #3E5FC1;
 }
 
 /* Experiência Profissional */
-#experiencia {
+div#experiencia {
     padding-top: 30px;
     padding-bottom: 50px;
     background-color: #4B5F9B;
     color: #FFFFFF;
 }
 
-#experiencia-start {
+div#experiencia-start {
     padding-top: 30px;
     padding-left: 50px;
 }
 
-#experiencia-end {
+div#experiencia-end {
     padding-top: 30px;
     padding-left: 50px;
 }
 
-#experiencia-start p, #experiencia-end p {
+div#experiencia-start p, div#experiencia-end p {
     margin-bottom: 50px;
 }
 
 /* Contato */
-#contato {
+div#contato {
     height: auto;
     padding-top: 30px;
     padding-bottom: 50px;
 }
 
-#formulario {
+div#formulario {
     height: auto;
     width: auto;
 }
 
-#fNome, #fMail, #fMsg, #fBtn {
+div#fNome, div#fMail, div#fMsg, div#fBtn {
     margin-top: 10px;
     width: 600px;
 }
 
-button #cEnviar {
+button#cEnviar {
     padding: 5px;
 }
 
 /* Footer */
-#footer {
+div#footer {
     background-color: #DDA755;
     color: #3C3C3C;
     height: 200px;
@@ -290,37 +285,44 @@ button #cEnviar {
     padding-top: 30px;
 }
 
-#social-media i {
-    font-size: 20px;
+div#social-media i {
+    font-size: 32px;
+    color:#4B5F9B;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
-#scipt-acesso {
+div#scipt-acesso {
     justify-items: center;
+}
+
+p#script-cv {
+
 }
 
 /* Mobile */
 @media(max-width: 960px) {
 
-    #cards, #formacao {
+    div#cards, div#formacao {
         display: flex;
         height: auto;
         flex-direction: column;
     }
 
-    #cards-row, #formacao-dados {
+    div#cards-row, div#formacao-dados {
         flex-direction: column;
         height: auto;
         margin-bottom: 50px;
         align-content: stretch;
     }
 
-    #formacao-start, #formacao-end {
+    div#formacao-start, div#formacao-end {
         flex-direction: column;
         height: auto;
         align-self: center;
     }
 
-    #formacao-start br, #formacao-end br {
+    div#formacao-start br, div#formacao-end br {
         display: none;
     }
 }
@@ -335,18 +337,18 @@ button #cEnviar {
         font-size: auto;
     }
 
-    #home-banner {
+    div#home-banner {
         display: flex;
         height: auto;
         margin-top: auto;
         padding-top: auto;
         flex-direction: column;
     }
-    .navbar {
+    div.navbar {
         text-align: end;
     }
     
-    #banner-content {
+    div#banner-content {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
