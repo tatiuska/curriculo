@@ -181,6 +181,7 @@ tbody#table-body {
 
 /* Formação Acadêmica */
 div#formacao {
+    display: flex;
     padding-top: 30px;
     height: 500px;
 }
@@ -192,6 +193,7 @@ h2.titulo-secao-start {
 }
 
 div#formacao-start, div#formacao-end {
+    display: flex;
     padding-top: 30px;
     padding-left: 50px;
     padding-bottom: 50px;
@@ -199,6 +201,7 @@ div#formacao-start, div#formacao-end {
 
 /* Cursos Realizados */
 div#cursos {
+    display: flex;
     padding-top: 30px;
     padding-bottom: 50px;
     background-color: #4B5F9B;
@@ -213,6 +216,7 @@ h2.titulo-secao-end {
 }
 
 div#cursos-start div#cursos-middle div#cursos-end {
+    display: flex;
     padding-top: 30px;
     padding-left: 50px;
 }
@@ -236,6 +240,7 @@ button.carousel-control-prev i, button.carousel-control-next i {
 
 /* Experiência Profissional */
 div#experiencia {
+    display: flex;
     padding-top: 30px;
     padding-bottom: 50px;
     background-color: #4B5F9B;
@@ -258,6 +263,7 @@ div#experiencia-start p, div#experiencia-end p {
 
 /* Contato */
 div#contato {
+    display: flex;
     height: auto;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -288,15 +294,20 @@ button#cEnviar:hover {
 div#footer {
     background-color: #DDA755;
     color: #3C3C3C;
-    height: 200px;
+    height: 400px;
     display: flex;
     padding-top: 30px;
 }
 
 div#footer-row {
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
+}
+
+div#social-media {
+    display: flex;
+    width: 600px;
 }
 
 div#social-media i {
@@ -304,12 +315,11 @@ div#social-media i {
     color:#4B5F9B;
     padding-top: 20px;
     padding-left: 10px;
-    width: 400px;
     justify-items: center;
 }
 
 div.conteudo-final {
-    width: 400px;
+    width: 600px;
     justify-items: center;
 }
 
@@ -319,7 +329,7 @@ div#scipt-acesso {
 }
 
 p#script-cv {
-    clar: both;
+    clear: both;
     height: 20px;
     margin: 30px 0px 10px 0px;
     text-align: center;
@@ -328,6 +338,20 @@ p#script-cv {
 /* Mobile */
 @media(max-width: 960px) {
 
+    h2.titulo-secao-start, h2.titulo-secao-end {
+        font-size: 28px;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+
+    #foto img {
+        width: auto;
+    }
+
+
+
     div#cards, div#formacao {
         display: flex;
         height: auto;
@@ -335,6 +359,7 @@ p#script-cv {
     }
 
     div#cards-row, div#formacao-dados {
+        display: flex;
         flex-direction: column;
         height: auto;
         margin-bottom: 50px;
@@ -342,25 +367,90 @@ p#script-cv {
     }
 
     div#formacao-start, div#formacao-end {
+        display: flex;
         flex-direction: column;
         height: auto;
+        width: auto;
+        align-self: flex-start;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    div#cursos-start, div#cursos-middle, div#cursos-end {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        align-self: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    div#experiencia-start, div#experiencia-end {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        align-self: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+
+    }
+
+    div#formulario {
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+
+    div#fNome, div#fMail, div#fMsg, div#fBtn {
+        margin-top: 10px;
+        width: auto;
+    }
+
+    footer {
+        display: flex;
+        height: auto;
+    }
+
+    div#footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    div#footer-row {
+        display: flex;
+        width: auto;
+    }
+
+    div#social-media, div.conteudo-final {
+        width: auto;
         align-self: center;
     }
 
-    div#formacao-start br, div#formacao-end br {
-        display: none;
+    div#script-acesso {
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 20px;
+        height: auto;
+    }
+
+    p#script-cv {
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 10px;
     }
 }
 
 @media(max-width: 680px) {
-
-    h2 {
-        font-size: auto;
-    }
-
-    h3 {
-        font-size: auto;
-    }
 
     div#home-banner {
         display: flex;
@@ -374,13 +464,10 @@ p#script-cv {
     }
     
     div#banner-content {
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        width: auto;
-    }
-
-    #foto img {
         width: auto;
     }
 
@@ -390,6 +477,7 @@ p#script-cv {
     }
 
     #formacao {
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
