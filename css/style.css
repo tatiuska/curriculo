@@ -219,8 +219,6 @@ p#formacao-4 {
 /* Cursos Realizados */
 div#cursos {
     display: flex;
-    width: auto;
-    height: auto;
     padding-top: 30px;
     padding-bottom: 50px;
     background-color: #4B5F9B;
@@ -235,8 +233,6 @@ h2.titulo-secao-end {
 }
 
 div#cursos-start, div#cursos-middle, div#cursos-end {
-    display: flex;
-    justify-content: center;
     padding-top: 30px;
     padding-left: 50px;
 }
@@ -358,8 +354,14 @@ p#script-cv {
 /* Mobile */
 @media(max-width: 960px) {
 
-    h2.titulo-secao-start, h2.titulo-secao-end {
+    h2.titulo-secao-start {
         font-size: 28px;
+        padding-left: 20px;
+    }
+
+    h2.titulo-secao-end {
+        font-size: 28px;
+        padding-right: 20px;
     }
     
     p {
@@ -391,7 +393,6 @@ p#script-cv {
         flex-direction: column;
         height: auto;
         width: auto;
-        align-self: flex-start;
         margin-top: 10px;
         margin-bottom: 0;
         padding-bottom: 0;
@@ -401,21 +402,25 @@ p#script-cv {
     p#formacao-1 {
         margin-top: 0;
         margin-bottom: 10px;
+        margin-right: 20px;
     }
     
     p#formacao-2 {
         margin-top: 0;
         margin-bottom: 10px;
+        margin-right: 20px;
     }
     
     p#formacao-3 {
         margin-top: 0;
         margin-bottom: 10px;
+        margin-right: 20px;
     }
     
     p#formacao-4 {
         margin-top: 0;
         margin-bottom: 10px;
+        margin-right: 20px;
     }
 
     div#row-cursos {
@@ -432,7 +437,8 @@ p#script-cv {
         justify-content: center;
         margin-left: 10px;
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-right: 20px;
+        margin-bottom: 0;
         padding-bottom: 0;
         padding-top: 0;
     }
