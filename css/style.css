@@ -53,7 +53,7 @@ div.container-fluid {
 header {
     background-color: #4B5F9B;
     width: auto;
-    height: 60px;
+    height: auto;
     margin-top: 0;
 }
 
@@ -86,7 +86,7 @@ div#home-banner {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 350px;
+    height: 400px;
 }
 
 div#banner-content {
@@ -509,10 +509,34 @@ p#script-cv {
     div#home-banner {
         display: flex;
         height: auto;
-        margin-top: auto;
-        padding-top: auto;
         flex-direction: column;
     }
+
+    div#banner-content {
+        display: flex;
+        justify-content: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+
+    div#foto, div#nome-cargo {
+        align-self: center;
+    }
+
+    img#img-cv {
+        align-self: center;
+        justify-self: center;
+    }
+
+    div#nome-cargo h2 {
+        font-size: 28px;
+    }
+
+    div#nome-cargo h3 {
+        font-size: 20px;
+    }
+
     div.navbar {
         text-align: end;
     }
