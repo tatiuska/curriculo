@@ -10,6 +10,7 @@
 
 html {
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 h1 {
@@ -235,6 +236,7 @@ h2.titulo-secao-end {
 
 div#cursos-start, div#cursos-middle, div#cursos-end {
     display: flex;
+    justify-content: center;
     padding-top: 30px;
     padding-left: 50px;
 }
