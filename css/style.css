@@ -102,7 +102,9 @@ div #nome-cargo {
 }
 
 div#foto {
-    margin-right: 10px;
+    width: auto;
+    display: flex;
+    justify-content: center;
 }
 
 div#foto img {
@@ -368,11 +370,9 @@ p#script-cv {
         font-size: 15px;
     }
 
-    #foto img {
-        width: auto;
+    div#banner-content {
+        width: 100%;
     }
-
-
 
     div#cards, div#formacao {
         display: flex;
@@ -527,9 +527,9 @@ p#script-cv {
         margin-bottom: 50px;
         align-items: center;
     }
-
-    div#foto, div#nome-cargo {
-        align-self: center;
+    
+    div#nome-cargo {
+        width: 100%;
     }
 
     img#img-cv {
@@ -558,7 +558,7 @@ p#script-cv {
     }
 
     #nome-cargo {
-        width: 70%;;
+        width: 70%;
         text-align: center;
     }
 
