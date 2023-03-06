@@ -5,6 +5,8 @@
 - Decidi manter a mesma paleta de cores do CV original, mas reorganizei a disposição de algumas informações para melhor aproveitar os recursos do Boostrap. 
 - Incluí uma parte da página para exibir um Portfolio com projetos de front-end que desenvolvi entre meados de 2022 e janeiro de 2023.
 
-Ferramentas utilizadas: Figma, VS Code, Git Bash.
-Stacks: HTML5, CSS3, Bootstrap 5, Git.
+Ferramentas utilizadas: Figma, VS Code, Git Bash.<br>
+Stacks: HTML5, CSS3, Bootstrap 5, Git.<br>
+
+Iniciado em: 10/01/2023.<br>
 Finalizado em: 06/03/2023.
